@@ -9,6 +9,8 @@ from langchain.schema.runnable import RunnablePassthrough, RunnableMap, Runnable
 from langchain.chains import RetrievalQA
 import tempfile
 import os
+from langchain_community.document_loaders import PyPDFLoader
+
 
 # Set your Google API Key
 GOOGLE_API_KEY = "AIzaSyD-q5-mcoLn6Horgx-tPD_q4V5N_GV7uQE"
