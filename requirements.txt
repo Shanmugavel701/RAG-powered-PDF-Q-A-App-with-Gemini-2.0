@@ -1,21 +1,9 @@
 streamlit==1.33.0
-
-# Core LangChain and integrations
-langchain==0.1.16
-langchain-community==0.0.34
+langchain==0.1.17
 langchain-google-genai==0.0.7
 google-generativeai==0.4.1
-
-# PDF & Embedding dependencies
-faiss-cpu==1.7.4
 sentence-transformers==2.2.2
+faiss-cpu==1.7.4
 PyMuPDF==1.23.3
-
-# Utils
 tqdm
 protobuf==4.25.3
-
-libglib2.0-0
-libsm6
-libxrender1
-libxext6
