@@ -1,10 +1,18 @@
 streamlit==1.33.0
+
+# LangChain & Community Integration
 langchain==0.1.16
 langchain-community==0.0.34
 langchain-google-genai==0.0.7
 google-generativeai==0.4.1
+
+# Embeddings & Vector Store
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
+
+# PDF support
 PyMuPDF==1.23.3
+
+# Utils
 tqdm
 protobuf==4.25.3
