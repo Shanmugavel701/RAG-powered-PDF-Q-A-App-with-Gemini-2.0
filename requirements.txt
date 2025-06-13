@@ -1,6 +1,24 @@
-streamlit>=1.32.0
-langchain>=0.1.16
-langchain-google-genai>=0.0.7
-google-generativeai>=0.4.1
-protobuf>=4.25.1
+streamlit==1.33.0
+
+# LangChain core and Google Gemini integration
+langchain==0.1.16
+langchain-google-genai==0.0.7
+
+# Community integrations (PyPDF, FAISS, HuggingFace)
+langchain-community==0.0.34
+
+# HuggingFace Transformers/Embeddings
+sentence-transformers==2.2.2
+
+# FAISS CPU support
+faiss-cpu==1.7.4
+
+# PDF reading dependencies
+PyMuPDF==1.23.3
+
+# Google GenAI SDK
+google-generativeai==0.4.1
+
+# Other dependencies
 tqdm
+protobuf==4.25.3
