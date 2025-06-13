@@ -16,7 +16,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Initialize Gemini model
 llm = ChatGoogleGenerativeAI(
-    model="models/gemini-1.5-flash-latest",
+    model="gemini-2.0-flash-lite",
     google_api_key=GOOGLE_API_KEY,
     temperature=0.2
 )
