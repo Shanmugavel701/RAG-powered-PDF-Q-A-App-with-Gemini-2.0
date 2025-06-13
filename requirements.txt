@@ -1,18 +1,8 @@
 streamlit==1.33.0
-
-# LangChain core + community loaders
 langchain==0.1.16
 langchain-community==0.0.34
-
-# Gemini LLM
 langchain-google-genai==0.0.7
 google-generativeai==0.4.1
-
-# PDF reading and Embedding
-PyMuPDF==1.23.3
-faiss-cpu==1.7.4
 sentence-transformers==2.2.2
-
-# Utils
-tqdm
-protobuf==4.25.3
+faiss-cpu==1.7.4
+PyMuPDF==1.23.3
